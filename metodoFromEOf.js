@@ -1,4 +1,4 @@
-//* este metodo cria outro array apartir do array original
+//* este metodo cria outro array a partir do array original
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 let numbers2 = Array.from(numbers);
@@ -11,7 +11,7 @@ console.log(choiceNumb);
 
 ////////////////////////////////////////////////////////////////////////
 //Utilizando o metodo Array.of
-//basicamente ele cria um novo array apartir dos argumentos passados para o Metodo
+//basicamente ele cria um novo array a partir dos argumentos passados para o Metodo
 let numbersOne = Array.of(22, 32, 42);
 let numbersFoobar = Array.of(11, 92, 63);
 
